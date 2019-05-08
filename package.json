@@ -1,0 +1,28 @@
+{
+  "name": "ccsprout",
+  "version": "1.0.0",
+  "description": "Coding Core Sprout：处于萌芽阶段的 Code 核心知识库",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanxuanliang/CCSprouT.git"
+  },
+  "keywords": [
+    "Coding",
+    "Core",
+    "Sprout"
+  ],
+  "author": "hanxuanliang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hanxuanliang/CCSprouT/issues"
+  },
+  "homepage": "https://github.com/hanxuanliang/CCSprouT#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.44"
+  }
+}
