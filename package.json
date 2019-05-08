@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/hanxuanliang/CCSprouT#readme",
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "vuepress": "^1.0.0-alpha.44"
   }
 }
