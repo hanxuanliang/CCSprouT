@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: Get Started →
-actionLink: /ts-axios/
+actionLink: /welcome/
 footer: MIT Licensed | Copyright © 2019 hanxuanliang
 ---
 <div style="text-align: center">

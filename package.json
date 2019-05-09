@@ -24,6 +24,8 @@
     "url": "https://github.com/hanxuanliang/CCSprouT/issues"
   },
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.47",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.47",
     "gh-pages": "^2.0.1",
     "vuepress": "^1.0.0-alpha.44"
   }
