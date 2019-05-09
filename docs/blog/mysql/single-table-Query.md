@@ -83,7 +83,7 @@ SELECT * FROM single_table WHERE id = 1438;
 
 
 
-![聚簇索引示例图](/聚簇索引示例图.jpg)
+![聚簇索引示例图](https://github.com/hanxuanliang/CCSprouT/blob/gh-pages/聚簇索引示例图.jpg)
 
 记录中只展示我们关心的索引列，对于`single_table`表的聚簇索引来说，展示的就是`id`列。我想突出的重点就是：**`B+`树叶子节点中的记录是按照索引列排序的**，对于的聚簇索引来说，**它对应的`B+`树叶子节点中的记录就是按照`id`列排序的**。`B+`树本来就是一个矮矮的大胖子，所以这样根据主键值定位一条记录的速度超快，类似的，我们根据唯一二级索引列来定位一条记录的速度也是很快的。例如：
 
@@ -91,7 +91,7 @@ SELECT * FROM single_table WHERE id = 1438;
 SELECT * FROM single_table WHERE key2 = 3841;
 ```
 
-![二级索引示意图](/二级索引示意图.jpg)
+![二级索引示意图](https://github.com/hanxuanliang/CCSprouT/blob/gh-pages/二级索引示意图.jpg)
 
 可以看到这个查询的执行分两步，
 
@@ -112,6 +112,6 @@ SELECT * FROM single_table WHERE key1 = 'abc';
 
 而在回表这个操作，`Mysql ` 设计者把这种搜索条件为二级索引列与常数等值比较，采用二级索引来执行查询的访问方法称为：`ref`
 
-![普通二级索引](/普通二级索引.jpg)
+![普通二级索引](https://github.com/hanxuanliang/CCSprouT/blob/gh-pages/普通二级索引.jpg)
 
 在图中我们看见，对于普通的二级索引来说，通过索引列进行等值比较后可能匹配到多条连续的记录，而不是像主键或者唯一二级索引那样最多只能匹配1条记录。所以这种`ref`访问方法比`const`差了那么一点点。

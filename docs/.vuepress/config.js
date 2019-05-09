@@ -38,7 +38,7 @@ function getTsAxiosSidebar(groupA, groupB, groupC, groupD, groupE) {
 	return [
 		{
 			title: groupA,
-			collapsable: false,
+			// collapsable: false,
 			children: [
 				['', 'Introduction'],
 				'install',
@@ -47,7 +47,6 @@ function getTsAxiosSidebar(groupA, groupB, groupC, groupD, groupE) {
 		},
 		{
 			title: groupB,
-			collapsable: false,
 			children: [ 
         'type',
         'declare',
@@ -61,7 +60,6 @@ function getTsAxiosSidebar(groupA, groupB, groupC, groupD, groupE) {
     },
     {
       'title': groupC,
-      collapsable: false,
       children: [
         'require',
         'init',
@@ -70,7 +68,6 @@ function getTsAxiosSidebar(groupA, groupB, groupC, groupD, groupE) {
     },
     {
       'title': groupD,
-      collapsable: false,
       children: [
         'url',
         'data',
@@ -82,7 +79,6 @@ function getTsAxiosSidebar(groupA, groupB, groupC, groupD, groupE) {
     },
     {
       'title': groupE,
-      collapsable: false,
       children: [
         'error',
         'enhance'
@@ -95,7 +91,6 @@ function getMysqlSidebar(group) {
   return [
     {
 			title: group,
-			collapsable: false,
 			children: [
         ['', 'Introduction'],
 				'single-table-Query'
@@ -108,7 +103,6 @@ function getNetworkSidebar(group) {
   return [
     {
 			title: group,
-			collapsable: false,
 			children: [
         ['', 'Introduction'],
         'IP-From',
