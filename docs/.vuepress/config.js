@@ -1,17 +1,22 @@
 module.exports = {
 	base: '/CCSprouT/',
 	dest: 'dist',
-	title: 'Coding Core Sprout',
-	description: 'Coding Core Sprout：处于萌芽阶段的 Code 核心知识库',
   repo: 'https://github.com/hanxuanliang/CCSprouT',
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+      title: 'Coding Core Sprout',
+      description: 'Coding Core Sprout：处于萌芽阶段的 Code 核心知识库'
+    },
+  },
   plugins: [
     '@vuepress/back-to-top',
-    '@vuepress/medium-zoom'
+    '@vuepress/medium-zoom',
   ],
 	themeConfig: {
 		editLinks: false,
     docsDir: 'docs',
-    lastUpdated: 'Last Updated',
+    lastUpdated: '上次更新',
 		locales: {
 			'/': {
 				nav: require('./nav/zh'),
