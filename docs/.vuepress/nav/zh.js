@@ -13,6 +13,10 @@ module.exports = [
 			{
 				text: 'Network',
 				link: '/blog/network/'
+			},
+			{
+				text: 'AdvancePython',
+				link: '/blog/python/'
 			}
 		]
 	},

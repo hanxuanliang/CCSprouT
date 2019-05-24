@@ -25,6 +25,7 @@ module.exports = {
           '/ts-axios/': getTsAxiosSidebar('初识 TypeScript', 'TypeScript 常用语法', 'ts-axios 项目初始化', 'ts-axios 基础功能实现', 'ts-axios 异常情况处理'),
           '/blog/mysql/': getMysqlSidebar('Mysql'),
           '/blog/network/': getNetworkSidebar('Network'),
+          '/blog/python/': getAdPythonSidebar('AdvancePython'),
 				}
 			}
 		},
@@ -107,6 +108,18 @@ function getNetworkSidebar(group) {
         ['', 'Introduction'],
         'IP-From',
         'about-UDP',
+			]
+		},
+  ]
+}
+
+function getAdPythonSidebar(group) {
+  return [
+    {
+			title: group,
+			children: [
+        ['', 'Introduction'],
+        'list-tuple',
 			]
 		},
   ]
