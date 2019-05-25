@@ -120,6 +120,7 @@ function getAdPythonSidebar(group) {
 			children: [
         ['', 'Introduction'],
         'list-tuple',
+        'dict-set',
 			]
 		},
   ]

@@ -14,4 +14,5 @@
 > **Python基础再学**
 >
 > - [**列表和元组，到底用哪一个？**](/blog/python/list-tuple.html)
+> - [**字典、集合，你真的了解吗？**](/blog/python/dict-set.html)
 
