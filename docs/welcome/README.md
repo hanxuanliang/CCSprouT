@@ -3,7 +3,7 @@ sidebarDepth: 3
 sidebar: auto
 ---
 
-# WelCome, It' s My Blog
+# WelCome
 
 ### normal blog record，记录自己的学习轨迹
 
@@ -19,9 +19,24 @@ sidebar: auto
 
 - [ 单表查询](/blog/mysql/single-table-Query.html)
 
+## Network
+
+- [**Hello world，UDP**](/blog/network/about-UDP.html)
+- [**IP是怎么来的，又是怎么没的？**](/blog/network/IP-From.html)
+
+## Python进阶
+
+- [**列表和元组，到底用哪一个？**](/blog/python/list-tuple.html)
+- [**字典、集合，你真的了解吗？**](/blog/python/dict-set.html)
+- [**聊聊String**](/blog/python/string.html)
+
+## Tomcat容器
+
+- [**Web的基础：HTTP协议**](/blog/tomcat/http-protocol.html)
+
 <br />
 
 ::: tip Link To
-如果你想在github里面看到blog的文章，可以访问 [Blog](https://github.com/hanxuanliang/Blog)
+如果你想在github里面看到其他我的blog的文章，可以访问 [Blog](https://github.com/hanxuanliang/Blog)
 :::
 

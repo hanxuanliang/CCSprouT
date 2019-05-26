@@ -17,6 +17,10 @@ module.exports = [
 			{
 				text: 'AdvancePython',
 				link: '/blog/python/'
+			},
+			{
+				text: 'Tomcat容器',
+				link: '/blog/tomcat/'
 			}
 		]
 	},

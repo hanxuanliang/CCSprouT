@@ -27,7 +27,7 @@ footer: MIT Licensed | Copyright © 2019 hanxuanliang
 
 ```bash
 # 你可以在我的github项目里面 找到我的全部文章
-git clone git@github.com:hanxuanliang/CCSprouT.git
+git clone https://github.com/hanxuanliang/CCSprouT.git
 
 # happy coding
 do it right now >> hard & repeat & repeat

@@ -26,6 +26,7 @@ module.exports = {
           '/blog/mysql/': getMysqlSidebar('Mysql'),
           '/blog/network/': getNetworkSidebar('Network'),
           '/blog/python/': getAdPythonSidebar('AdvancePython'),
+          '/blog/tomcat/': getTomcatSidebar('Tomcat容器'),
 				}
 			}
 		},
@@ -93,7 +94,7 @@ function getMysqlSidebar(group) {
     {
 			title: group,
 			children: [
-        ['', 'Introduction'],
+        ['', 'Mysql World'],
 				'single-table-Query'
 			]
 		},
@@ -105,7 +106,7 @@ function getNetworkSidebar(group) {
     {
 			title: group,
 			children: [
-        ['', 'Introduction'],
+        ['', 'NetWork'],
         'IP-From',
         'about-UDP',
 			]
@@ -118,10 +119,22 @@ function getAdPythonSidebar(group) {
     {
 			title: group,
 			children: [
-        ['', 'Introduction'],
+        ['', 'Python进阶'],
         'list-tuple',
         'dict-set',
         'string'
+			]
+		},
+  ]
+}
+
+function getTomcatSidebar(group) {
+  return [
+    {
+			title: group,
+			children: [
+        ['', 'Tomcat 容器'],
+        'http-protocol'
 			]
 		},
   ]
