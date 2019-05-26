@@ -6,7 +6,7 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: 'Coding Core Sprout',
-      description: 'Coding Core Sprout：处于萌芽阶段的 Code 核心知识库'
+      description: 'Coding Core Sprout：处于萌芽阶段的 Code Repository'
     },
   },
   plugins: [
