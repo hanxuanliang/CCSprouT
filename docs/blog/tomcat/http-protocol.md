@@ -43,7 +43,7 @@ HTTP协议是浏览器与服务器之间的数据传送协议。作为应用层�
 
 我们再来看看HTTP响应的格式，HTTP的响应也是由三部分组成，分别是**状态行、响应报头、报文主体**。
 
-<img :src="$withBase('/tomcat/response.jpg')" alt="HTTP的响应格式">
+<img :src="$withBase('/tomcat/response.png')" alt="HTTP的响应格式">
 
 ## Cookie和Session
 
