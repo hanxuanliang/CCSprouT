@@ -1,7 +1,7 @@
 {
   "name": "ccsprout",
   "version": "1.0.0",
-  "description": "Coding Core Sprout：处于萌芽阶段的 Code 核心知识库",
+  "description": "Coding Core Sprout：处于萌芽阶段的 Code Repository",
   "homepage": "https://hanxuanliang.github.io/CCSprouT",
   "scripts": {
     "dev": "vuepress dev docs",
