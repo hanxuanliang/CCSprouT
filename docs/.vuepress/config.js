@@ -121,6 +121,7 @@ function getAdPythonSidebar(group) {
         ['', 'Introduction'],
         'list-tuple',
         'dict-set',
+        'string'
 			]
 		},
   ]
