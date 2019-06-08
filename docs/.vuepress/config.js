@@ -23,6 +23,7 @@ module.exports = {
 				sidebar: {
           // 可以写多个导航导向内容
           '/ts-axios/': getTsAxiosSidebar('初识 TypeScript', 'TypeScript 常用语法', 'ts-axios 项目初始化', 'ts-axios 基础功能实现', 'ts-axios 异常情况处理'),
+          '/go/': getGoParkSidebar('Go 基础'),
           '/blog/mysql/': getMysqlSidebar('Mysql'),
           '/blog/network/': getNetworkSidebar('Network'),
           '/blog/python/': getAdPythonSidebar('AdvancePython'),
@@ -87,6 +88,18 @@ function getTsAxiosSidebar(groupA, groupB, groupC, groupD, groupE) {
       ]
     }
 	];
+}
+
+function getGoParkSidebar(groupA) {
+  return [
+    {
+			title: groupA,
+			children: [
+        ['', 'Go 环境搭建'],
+				'go-slice'
+			]
+		},
+  ]
 }
 
 function getMysqlSidebar(group) {

@@ -25,6 +25,10 @@ module.exports = [
 		]
 	},
 	{
+		text: 'Go Park',
+		link: '/go/'
+	},
+	{
 		text: 'TS-axios 重构文档',
 		link: '/ts-axios/'
 	},
