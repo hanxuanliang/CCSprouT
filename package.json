@@ -24,9 +24,14 @@
     "url": "https://github.com/hanxuanliang/CCSprouT/issues"
   },
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.47",
-    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.47",
-    "gh-pages": "^2.0.1",
-    "vuepress": "^1.0.0-alpha.44"
+    "@vuepress/plugin-back-to-top": "^1.0.3",
+    "@vuepress/plugin-medium-zoom": "^1.0.3",
+    "gh-pages": "^2.1.1",
+    "vuepress": "^1.0.3",
+    "sass": "^1.22.9"
+  },
+  "dependencies": {
+    "element-ui": "^2.11.1",
+    "sass-loader": "^7.2.0"
   }
 }
